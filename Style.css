@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.conatiner{
+    width: 1300px;
+    height: 700px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(119, 109, 109), -5px -5px 10px rgb(163, 154, 154);
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+}
+
+.label{
+    margin: 29px 0 0 5%;
+}
+
+.label a{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar {
+    margin-left: 37%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 40px;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar ul li .btn
+{
+    padding: 17px 17px;
+    border-radius: 50px;
+    border: 0;
+    background-color: blue;
+    box-shadow: rgba(185, 185, 185, 0.575) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .btn:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 45%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   .btn:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 58%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.body-content{
+    display: flex;
+}
+
+.body-content .b-title{
+    margin-left: 10%;
+}
+
+.body-content .b-title h1{
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.body-content .b-title span{
+    color: blue;
+}
+
+.body-content .b-title button{
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: blue;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   
+}
+
+.body-content .b-title .icons{
+
+    display: flex;
+    margin-top: 80px;
+}
+
+.body-content .b-title .icons a img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.body-content .b-img{
+    margin-left: 15%;
+}
+
+.body-content .b-img img{
+    width: 720px;
+    height: 500px;
+}
+div .b-img
+{
+    width: 500px;
+}
+
+
